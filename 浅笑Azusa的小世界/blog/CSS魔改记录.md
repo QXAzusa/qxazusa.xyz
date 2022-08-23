@@ -8,7 +8,7 @@ description: 这里记录了本站使用CSS方法做美化的一些记录，仅�
 tags: ['Hexo']
 ---
 [butterfly](https://github.com/jerryc127/hexo-theme-butterfly)为主题的基础下进行修改
-记录了[原站](https://hexo.qxazusa.xyz/)使用CSS方法做美化的一些记录
+记录了[旧站](https://hexo.qxazusa.xyz/)使用CSS方法做美化的一些记录
 <!--truncate-->
 ## 嵌入方法
 

@@ -7,19 +7,16 @@ image: https://cdn.jsdelivr.net/npm/qxazusa-res/cover/5.webp
 description: 用于显示个人在bilibili的追番内容，参考Github项目hexo-bilibili-bangumi
 tags: ['Hexo']
 ---
-在Hexo架构中用于显示个人在bilibili的追番内容，参考Github项目hexo-bilibili-bangumi
-[样例](https://hexo.qxazusa.xyz/bangumis/index.html)
+在Hexo架构中用于显示个人在bilibili的追番内容，参考Github项目[hexo-bilibili-bangumi](https://github.com/HCLonely/hexo-bilibili-bangumi)
 <!--truncate-->
-## Bilibili追番页面
-
-此部分内容参考Github项目[hexo-bilibili-bangumi](https://github.com/HCLonely/hexo-bilibili-bangumi)
-
-安装依赖
+![示例](./simple.png)
+### 安装依赖
 
 ```bash
 npm install hexo-bilibili-bangumi --save
 ```
 
+### 配置
 将下面的配置写入站点的配置文件 `_config.yml` 里(不是主题的配置文件).
 
 ``` yaml

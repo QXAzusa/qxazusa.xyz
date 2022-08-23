@@ -1,5 +1,5 @@
 ---
-title: Live2D Widget
+title: Live2D Widget在Hexo上的部署
 slug: live2d-widget-on-hexo
 date: 2021-08-06 10:24:48
 authors: qxazusa
@@ -84,7 +84,7 @@ live2d:
 注意：在每次修改过live2d的内容后务必执行一次hexo clean命令再生成上传，不然不能生效。
 
 # 可换装、互动
-
+![示例](./simple.png)
 ### 仓库部署
 
 将 [stevenjoezhang/live2d-widget](https://github.com/stevenjoezhang/live2d-widget) 和 [fghrsh/live2d_api](https://github.com/fghrsh/live2d_api) fork到自己的仓库，在[Vercel](https://vercel.com/)将自己的项目部署在上面，等待部署结束后在Production Deployment下得到各项目的DOMAIN。<b>所有的DOMAIN开头都要带https://</b>
