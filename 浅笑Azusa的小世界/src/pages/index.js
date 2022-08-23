@@ -10,21 +10,14 @@ import HeroImg from '../../static/img/Hero.png'
 
 const svgList = [
   {
-    title: 'github',
-    Svg: require('../../static/img/github.svg').default,
-    color: 'black',
-    link: 'https://github.com/QXAzusa',
-  },
-  {
     title: 'bilibili',
     Svg: require('../../static/img/bilibili.svg').default,
     link: 'https://space.bilibili.com/148833361',
   },
   {
-    title: 'wechat',
-    Svg: require('../../static/img/wechat.svg').default,
-    color: '#2979ff',
-    link: 'https://static.7wate.com/img/2022/06/16/d6dfd36f35293.jpg',
+    title: 'github',
+    Svg: require('../../static/img/github.svg').default,
+    link: 'https://github.com/QXAzusa',
   },
 ]
 const Svg = ({ Svg, color, title, link }) => {
@@ -42,10 +35,10 @@ function MyHero() {
     <div className={styles.myHeroContainer}>
       <div className={styles.leftContainer}>
         <h1 className={styles.leftContainer_h1}>
-          Always <br /> For Freedom.
+          Always <br /> For Happiness.
         </h1>
         <p className={styles.leftContainer_p}>
-          一个喜欢异想天开的家伙 💨
+          一个热爱探索新事物的家伙 💨
           <br />
           在这里记录生活与知识，希望对你也有帮助。
         </p>

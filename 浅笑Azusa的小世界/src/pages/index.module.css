@@ -24,6 +24,12 @@
 
 /* ----------------------------------------------------- */
 /* myCustomCSS */
+*{
+  --github-icon-color: #000000
+}
+[data-theme='dark'] *{
+  --github-icon-color: #ffffff
+}
 .myHeroContainer {
   display: flex;
   margin: 0;
@@ -39,6 +45,7 @@
 }
 [data-theme='dark'] .myHeroContainer {
   background-color: var(--ifm-color-gray-1000)
+
 }
 .leftContainer {
   padding: 3rem 0 0 1rem;
@@ -63,6 +70,12 @@
 .leftContainer_p {
   color: #565451;
   font-size: 1.5rem;
+}
+[data-theme='dark'] .leftContainer_h1 {
+  color: #ffff;
+}
+[data-theme='dark'] .leftContainer_p {
+  color: #e6e6e6;
 }
 .buttonContainer {
   display: flex;
