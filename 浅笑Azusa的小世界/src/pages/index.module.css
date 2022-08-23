@@ -32,7 +32,10 @@
   background-color: #f5f4f4;
   width: 100%;
   overflow: hidden;
-  padding: 0rem 6rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 2.5rem;
+  padding-bottom: 0rem;
 }
 [data-theme='dark'] .myHeroContainer {
   background-color: var(--ifm-color-gray-1000)

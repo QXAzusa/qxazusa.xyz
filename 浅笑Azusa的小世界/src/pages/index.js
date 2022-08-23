@@ -35,22 +35,7 @@ const Svg = ({ Svg, color, title, link }) => {
   )
 }
 
-function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext()
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className='container'>
-        <h1 className='hero__title'>{siteConfig.title}</h1>
-        <p className='hero__subtitle'>{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link className='button button--secondary button--lg' to='/docs/intro'>
-            🖱Click Here!
-          </Link>
-        </div>
-      </div>
-    </header>
-  )
-}
+
 
 function MyHero() {
   return (
@@ -62,7 +47,7 @@ function MyHero() {
         <p className={styles.leftContainer_p}>
           一个喜欢异想天开的家伙 💨
           <br />
-          在这里记录知识，希望对你也有帮助。
+          在这里记录生活与知识，希望对你也有帮助。
         </p>
         <div className={styles.buttonContainer}>
           {/* <button className={styles.button}>
@@ -91,8 +76,9 @@ export default function Home() {
   return (
     <Layout
       // title={`${siteConfig.title}`}
-      title='Home'
-      description='Wiki知识库/vscode/javascript/软件/工具'>
+      //title='Home'
+      //description='Wiki知识库/vscode/javascript/软件/工具'
+      >
       {/* <HomepageHeader /> */}
       <main>
         <MyHero />
@@ -100,4 +86,4 @@ export default function Home() {
       </main>
     </Layout>
   )
-}2
+}
