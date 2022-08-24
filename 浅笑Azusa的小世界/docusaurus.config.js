@@ -13,7 +13,22 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: '/img/favicon.ico',
-
+  plugins: [
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-MD28TLTYRQ',
+        anonymizeIP: false,
+      },
+      '@docusaurus/plugin-sitemap',
+      {
+        changefreq: 'daily',
+        priority: 0.5,
+        ignorePatterns: ['/blog/tags/**'],
+        filename: 'sitemap.xml',
+      },
+    ],
+  ],
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'facebook', // Usually your GitHub org/user name.
