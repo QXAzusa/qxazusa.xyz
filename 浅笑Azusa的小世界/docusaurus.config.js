@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: '浅笑Azusa的小世界',
   tagline: 'Dinosaurs are cool',
-  url: 'https://blog.qxazusa.xyz',
+  url: 'https://www.qxazusa.xyz',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
