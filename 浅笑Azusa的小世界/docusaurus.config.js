@@ -58,14 +58,13 @@ const config = {
           src: 'img/favicon.ico',
         },
         items: [
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Wiki',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-
         ],
       },
       footer: {
