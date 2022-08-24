@@ -13,24 +13,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: '/img/favicon.ico',
-  plugins: [
-    [
-      '@docusaurus/plugin-google-gtag',
-      {
-        trackingID: 'G-MD28TLTYRQ',
-        anonymizeIP: false,
-      },
-    ],
-      [
-      '@docusaurus/plugin-sitemap',
-      {
-        changefreq: 'daily',
-        priority: 0.5,
-        ignorePatterns: ['/blog/tags/**'],
-        filename: 'sitemap.xml',
-      },
-    ],
-  ],
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'facebook', // Usually your GitHub org/user name.
@@ -41,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['en', 'zh-Hans'],
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -60,6 +43,17 @@ const config = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        gtag:{
+          trackingID: 'G-MD28TLTYRQ',
+          anonymizeIP: false,
+          id: 'default'
+        },
+        sitemap: {
+          changefreq: 'daily',
+          priority: 0.5,
+          ignorePatterns: ['/blog/tags/**'],
+          filename: 'sitemap.xml',
         },
       }),
     ],
