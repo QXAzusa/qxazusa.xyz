@@ -20,6 +20,8 @@ const config = {
         trackingID: 'G-MD28TLTYRQ',
         anonymizeIP: false,
       },
+    ],
+      [
       '@docusaurus/plugin-sitemap',
       {
         changefreq: 'daily',
