@@ -61,7 +61,7 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'wiki',
             position: 'left',
             label: 'Wiki',
           },
@@ -74,8 +74,12 @@ const config = {
             title: '网站地图',
             items: [
               {
-                label:'所有文章',
+                label:'文章',
                 to:'/blog'
+              },
+              {
+                label:'Wiki',
+                to:'/docs/wiki'
               },
               {
                 label: '关于我',
