@@ -5,6 +5,8 @@ specifiers:
   '@babel/core': '>=7.0.0 <8.0.0'
   '@docusaurus/core': 2.0.1
   '@docusaurus/module-type-aliases': 2.0.1
+  '@docusaurus/plugin-google-gtag': ^2.0.1
+  '@docusaurus/plugin-sitemap': ^2.0.1
   '@docusaurus/preset-classic': 2.0.1
   '@mdx-js/react': ^1.6.22
   clsx: ^1.2.1
@@ -17,6 +19,8 @@ dependencies:
   '@algolia/client-search': 4.14.2
   '@babel/core': 7.18.10
   '@docusaurus/core': 2.0.1_3tgeifm2vmwrlpqlopppsnjtcu
+  '@docusaurus/plugin-google-gtag': 2.0.1_3tgeifm2vmwrlpqlopppsnjtcu
+  '@docusaurus/plugin-sitemap': 2.0.1_3tgeifm2vmwrlpqlopppsnjtcu
   '@docusaurus/preset-classic': 2.0.1_bay7tnxndrr4ygds4p7igxs3hq
   '@mdx-js/react': 1.6.22_react@17.0.2
   clsx: 1.2.1
@@ -2885,7 +2889,7 @@ packages:
   /@types/sax/1.2.4:
     resolution: {integrity: sha512-pSAff4IAxJjfAXUG6tFkO7dsSbTmf8CtUpfhhZ5VhkRpC4628tJhh3+V6H1E+/Gs9piSzYKT5yzHO5M4GG9jkw==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 18.7.9
     dev: false
 
   /@types/scheduler/0.16.2:
