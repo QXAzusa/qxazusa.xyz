@@ -28,3 +28,9 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+#upyun_logo {
+  width:4%!important
+
+}@media only screen and (max-width: 600px){
+  #upyun_logo {width:15%!important}
+  }
