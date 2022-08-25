@@ -38,15 +38,17 @@
   background-color: #f5f4f4;
   width: 100%;
   overflow: hidden;
-  padding-left: 6rem;
-  padding-right: 6rem;
-  padding-top: 2.5rem;
-  padding-bottom: 0rem;
+  padding: 6rem 6rem 2.5rem 0rem;
 }
 [data-theme='dark'] .myHeroContainer {
   background-color: var(--ifm-color-gray-1000)
 
 }
+@media only screen and (max-width: 600px){
+  .myHeroContainer {padding: 0 0 0 0}
+  .upyun_logo {width:15%!important}
+  }
+  
 .leftContainer {
   padding: 3rem 0 0 1rem;
   font-size: 40px;
