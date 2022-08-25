@@ -33,20 +33,25 @@
 .myHeroContainer {
   display: flex;
   margin: 0;
-  padding: 0;
   flex-direction: row;
   background-color: #f5f4f4;
   width: 100%;
   overflow: hidden;
-  padding: 6rem 6rem 2.5rem 0rem;
+  padding: 2rem 0rem 0rem 4rem;
 }
 [data-theme='dark'] .myHeroContainer {
   background-color: var(--ifm-color-gray-1000)
 
 }
+
+#upyun_logo {
+  width:4%!important
+}
+
 @media only screen and (max-width: 600px){
-  .myHeroContainer {padding: 0 0 0 0}
-  .upyun_logo {width:15%!important}
+  .myHeroContainer {padding: 0 0 0 0!important}
+  .rightContainer {display: none!important;}
+  #upyun_logo {width:15%!important}
   }
   
 .leftContainer {
