@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 description: 负责字幕组大部分的翻译工作
 ---
 

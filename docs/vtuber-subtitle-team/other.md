@@ -1,9 +1,9 @@
 ---
-sidebar_position: 7
-description: 字幕组内的其他职位
+sidebar_position: 8
+description: 字幕组的其他职务
 ---
 
-# 其他
+# 其他职务
 
 ## 同传
 ### 工作内容

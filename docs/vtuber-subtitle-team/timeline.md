@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 description: 根据视频内容在字幕中标注每句话开始时间及结束时间和说话对象
 ---
 
