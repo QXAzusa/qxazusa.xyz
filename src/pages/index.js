@@ -6,17 +6,17 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import styles from './index.module.css'
 import HomepageFeatures from '../components/HomepageFeatures'
 import Head from '@docusaurus/Head'
-import HeroImg from '../../static/img/Hero.png'
+import HeroImg from '//static.qxazusa.xyz/docusaurus/image/Hero.png'
 
 const svgList = [
   {
     title: 'bilibili',
-    Svg: require('../../static/img/bilibili.svg').default,
+    Svg: require('//static.qxazusa.xyz/docusaurus/image/bilibili.svg').default,
     link: 'https://space.bilibili.com/148833361',
   },
   {
     title: 'github',
-    Svg: require('../../static/img/github.svg').default,
+    Svg: require('//static.qxazusa.xyz/docusaurus/image/github.svg').default,
     link: 'https://github.com/QXAzusa',
   },
 ]
