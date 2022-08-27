@@ -11,12 +11,12 @@ import HeroImg from '../../static/img/Hero.png'
 const svgList = [
   {
     title: 'bilibili',
-    Svg: require('//static.qxazusa.xyz/docusaurus/image/bilibili.svg').default,
+    Svg: require('../../static/img/bilibili.svg').default,
     link: 'https://space.bilibili.com/148833361',
   },
   {
     title: 'github',
-    Svg: require('//static.qxazusa.xyz/docusaurus/image/github.svg').default,
+    Svg: require('../../static/img/github.svg').default,
     link: 'https://github.com/QXAzusa',
   },
 ]
