@@ -28,12 +28,17 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-#upyun_logo {
-  width:4%!important
 
-}@media only screen and (max-width: 600px){
+#upyun_logo {width:4%!important}
+#footer_pc{display:block}
+#footer_mobile{display:none}
+
+@media only screen and (max-width: 700px){
   #upyun_logo {width:15%!important}
-  }
+  #footer_pc{display:none!important}
+  #footer_mobile{display: block!important}
+  ::-webkit-scrollbar {display: none!important}
+}
   
   ::-webkit-scrollbar {
     width: 7px;    
