@@ -50,10 +50,11 @@
 
 @media only screen and (max-width: 600px){
   .myHeroContainer {padding: 0 0 0 0!important}
-  .rightContainer {display: none!important;}
-  #upyun_logo {width:15%!important}
   }
-  
+
+  @media only screen and (max-width: 976px){
+    .rightContainer {display: none!important;}
+  }
 .leftContainer {
   padding: 3rem 0 0 1rem;
   font-size: 40px;
