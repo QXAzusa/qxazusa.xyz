@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: '//static.qxazusa.xyz/docusaurus/image/favicon.ico',
+  favicon: '//static.qxazusa.xyz/pubilc/image/favicon.png_favicon',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -66,7 +66,7 @@ const config = {
         title: '浅笑Azusa的小世界',
         logo: {
           alt: 'Site Logo',
-          src: '//static.qxazusa.xyz/docusaurus/image/favicon.ico',
+          src: '//static.qxazusa.xyz/pubilc/image/favicon.png_favicon',
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
