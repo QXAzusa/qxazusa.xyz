@@ -123,8 +123,8 @@ const config = {
                 href: 'https://hexo.qxazusa.xyz/',
               },
               {
-                label: 'GitHub Repo',
-                href: 'https://github.com/QXAzusa/new.qxazusa.xyz',
+                label: 'Website GitHub Repo',
+                href: 'https://github.com/QXAzusa/www.qxazusa.xyz',
               },
             ],
           },
