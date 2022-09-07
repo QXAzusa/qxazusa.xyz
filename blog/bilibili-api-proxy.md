@@ -8,14 +8,18 @@ tags: ['Python']
 ---
 分流哔哩哔哩视频和直播流请求接口，避免在使用特殊途径访问时被分配到不属于本地区的服务器减缓加载速度
 <!--truncate-->
-## 视频播放地址
+## 视频
 1.屏蔽原先使用的域名 'upos-hz-mirrorakam.akamaized.net' 和 'upos-sz-mirrorcosov.bilivideo.com'
 
 2.将 'https://api.bilibili.com/x/player/playurl?' 分流到 'http://127.0.0.1:5746/bili-api/player/playurl?' (附带请求参数)
-## 直播流地址
+## 直播
 1.屏蔽原先使用的域名
 
 2.将 'https://api.live.bilibili.com/xlive/web-room/v2/index/getRoomPlayInfo?' 分流到 'http://127.0.0.1:5746/bili-api/live-playurl?' (附带请求参数)
+## PGC内容
+1.屏蔽原先使用的域名 'upos-hz-mirrorakam.akamaized.net' 和 'upos-sz-mirrorcosov.bilivideo.com'
+
+2.将 'https://api.bilibili.com/pgc/player/web/playurl?' 分流到 'http://127.0.0.1:5746/bili-api/pgc/playurl?' (附带请求参数)
 ## 实现
 ```python
 from flask import Flask,redirect,url_for,render_template,request,session,Response
@@ -37,10 +41,21 @@ api_header = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0',
     'Cookie': ''
 }
+def getB23Url(url):
+    r = requests.get(url, allow_redirects=False)
+    url_result = urlparse(r.headers['Location'])
+    genUrl = 'https://' + url_result.hostname + url_result.path
+    return genUrl
 
 @app.route('/')
-def homePage(): 
+def homePage():  # put application's code here
     return render_template('index.html')
+
+@app.route('/bili-api/link-convert/<string:b23Id>')
+def dispBVNum(b23Id):
+    url = 'https://b23.tv/' + b23Id
+    genUrl = getB23Url(url)
+    return redirect(genUrl)
     
 @app.route('/bili-api/live-playurl')
 def roomplayurl():
@@ -58,6 +73,17 @@ def videoplayurl():
     cid = request.args.get('cid')
     origin = request.headers.get('Origin') 
     url = f'https://api.bilibili.com/x/player/playurl?avid={avid}&bvid={bvid}&cid={cid}&qn=0&fnver=0&fnval=4048&fourk=1&session=f0bf1a0061bcdbd3111a153489127be1'
+    proxies = { "http": None, "https": None}
+    r = json.loads(requests.get(url, proxies=proxies, headers=api_header).text)
+    return r,200,{"Access-Control-Allow-Credentials":"true","access-control-allow-origin":origin,"ContentType":"application/json"}
+
+@app.route('/bili-api/pgc/playurl')
+def pgcplayurl():
+    avid = request.args.get('avid')
+    epid = request.args.get('ep_id')
+    cid = request.args.get('cid')
+    origin = request.headers.get('Origin') 
+    url = f'https://api.bilibili.com/pgc/player/web/playurl?avid={avid}&cid={cid}&qn=0&fnver=0&fnval=4048&fourk=1&ep_id={epid}&session=7d2b9b246a4fd092faab7776499b18b0'
     proxies = { "http": None, "https": None}
     r = json.loads(requests.get(url, proxies=proxies, headers=api_header).text)
     return r,200,{"Access-Control-Allow-Credentials":"true","access-control-allow-origin":origin,"ContentType":"application/json"}
