@@ -6,7 +6,7 @@ authors: qxazusa
 description: 分流哔哩哔哩视频和直播流请求接口，避免在使用特殊途径访问时被分配到不属于本地区的服务器
 tags: ['Python']
 ---
-分流哔哩哔哩视频和直播流请求接口，避免在使用特殊途径访问时被分配到不属于本地区的服务器减缓加载速度
+分流哔哩哔哩视频和直播流请求接口，避免在访问时被分配到不属于本地区的服务器减缓加载速度
 <!--truncate-->
 ## 视频
 1.屏蔽原先使用的域名 'upos-hz-mirrorakam.akamaized.net' 和 'upos-sz-mirrorcosov.bilivideo.com'
