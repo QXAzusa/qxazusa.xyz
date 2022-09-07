@@ -1,7 +1,7 @@
 ---
-title: 哔哩哔哩视频播放、直播流地址接口代理
+title: 哔哩哔哩视频播放、直播流地址接口分流
 date: 2022-09-07 16:00:00
-slug: bilibili-api-proxy
+slug: bilibili-api-bypass
 authors: qxazusa
 description: 分流哔哩哔哩视频和直播流请求接口，避免在使用特殊途径访问时被分配到不属于本地区的服务器
 tags: ['Python']
