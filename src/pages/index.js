@@ -59,7 +59,7 @@ function MyHero() {
         </div>
       </div>
       <div className={styles.rightContainer}>
-        <img src='../../img/hero.png' alt='HeroImg' />
+        <img src='//static.qxazusa.xyz/docusaurus/image/Hero.png' alt='HeroImg' />
       </div>
     </div>
   )
