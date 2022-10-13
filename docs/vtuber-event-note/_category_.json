@@ -1,0 +1,8 @@
+{
+  "label": "虚拟主播事件记录",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "记录虚拟圈发生的事件"
+  }
+}
