@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '浅笑Azusa的小世界',
+  title: '技术学习的历程 - 浅笑Azusa的小世界',
   tagline: 'Dinosaurs are cool',
   url: 'https://www.qxazusa.xyz',
   baseUrl: '/',
