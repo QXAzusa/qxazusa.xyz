@@ -119,6 +119,10 @@ const config = {
             title: '更多',
             items: [
               {
+                label: 'Contact Me',
+                href: 'mailto:webmaster@qxazusa.xyz',
+              },
+              {
                 label: '旧版博客(Hexo)',
                 href: 'https://hexo.qxazusa.xyz/',
               },
