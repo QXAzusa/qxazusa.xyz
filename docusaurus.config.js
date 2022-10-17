@@ -125,11 +125,7 @@ const config = {
               {
                 label: '旧版博客(Hexo)',
                 href: 'https://hexo.qxazusa.xyz/',
-              },
-              {
-                label: 'Website GitHub Repo',
-                href: 'https://github.com/QXAzusa/www.qxazusa.xyz',
-              },
+              }
             ],
           },
         ],
