@@ -151,7 +151,7 @@ const config = {
   scripts: [
       {
         src: 'https://cdn.staticfile.org/jquery/3.6.1/jquery.min.js',
-        async: true,
+        async: false,
       },
       {
         src: 'https://static.qxazusa.xyz/docusaurus/script/clipboard.min.js',
