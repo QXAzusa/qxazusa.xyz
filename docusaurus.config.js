@@ -119,8 +119,8 @@ const config = {
             title: '更多',
             items: [
               {
-                label: 'Contact Me',
-                href: 'mailto:webmaster@qxazusa.xyz',
+                label: '联系方式',
+                to: '/contact-me',
               },
               {
                 label: '旧版博客(Hexo)',
@@ -148,6 +148,16 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+  scripts: [
+      {
+        src: 'https://cdn.staticfile.org/jquery/3.6.1/jquery.min.js',
+        async: true,
+      },
+      {
+        src: 'https://static.qxazusa.xyz/docusaurus/script/clipboard.min.js',
+        async: true,
+      },
+    ]
 };
 
 module.exports = config;
