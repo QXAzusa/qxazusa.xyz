@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: '//static.qxazusa.xyz/pubilc/image/favicon.png_favicon',
+  favicon: '//static.qxazusa.xyz/public/image/favicon.png_favicon',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -66,7 +66,7 @@ const config = {
         title: '浅笑Azusa的小世界',
         logo: {
           alt: 'Site Logo',
-          src: '//static.qxazusa.xyz/pubilc/image/favicon.png_favicon',
+          src: '//static.qxazusa.xyz/public/image/favicon.png_favicon',
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
@@ -123,13 +123,13 @@ const config = {
                 to: '/contact-me',
               },
               {
-                label: '旧版博客(Hexo)',
+                label: '旧版(Powered by Hexo)',
                 href: 'https://hexo.qxazusa.xyz/',
               }
             ],
           },
         ],
-        copyright: `<div id="footer_pc">Copyright © ${new Date().getFullYear()} QXAzusa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powered by Docusaurus&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" rel="noopener" href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">本站由&nbsp;<img id="upyun_logo" alt="upyun_logo" src="//static.qxazusa.xyz/pubilc/image/upyun_logo.png" align="center">&nbsp;提供CDN加速服务</a><br><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">苏ICP备2021044611号-1</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32081202000264" target="_blank" rel="noopener" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">苏公网安备 32081202000264号</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://icp.gov.moe/?keyword=20220417" target="_blank" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">萌ICP备20220417号</a><br></div>
+        copyright: `<div id="footer_pc">Copyright © ${new Date().getFullYear()} QXAzusa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powered by Docusaurus&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" rel="noopener" href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">本站由&nbsp;<img id="upyun_logo" alt="upyun_logo" src="//static.qxazusa.xyz/public/image/upyun_logo.png" align="center">&nbsp;提供CDN加速服务</a><br><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">苏ICP备2021044611号-1</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32081202000264" target="_blank" rel="noopener" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">苏公网安备 32081202000264号</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://icp.gov.moe/?keyword=20220417" target="_blank" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">萌ICP备20220417号</a><br></div>
 
         <div id="footer_mobile">
         <br><a href="https://icp.gov.moe/?keyword=20220417" target="_blank" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">萌ICP备20220417号</a>
@@ -137,7 +137,7 @@ const config = {
         <br><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32081202000264" target="_blank" rel="noopener" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">苏公网安备 32081202000264号</a><br>
         Copyright © ${new Date().getFullYear()} QXAzusa
         <br>Powered by Docusaurus
-        <br><a target="_blank" rel="noopener" href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">本站由&nbsp;<img id="upyun_logo" alt="upyun_logo" src="//static.qxazusa.xyz/pubilc/image/upyun_logo.png" align="center">&nbsp;提供CDN加速服务</a></div>`,
+        <br><a target="_blank" rel="noopener" href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">本站由&nbsp;<img id="upyun_logo" alt="upyun_logo" src="//static.qxazusa.xyz/public/image/upyun_logo.png" align="center">&nbsp;提供CDN加速服务</a></div>`,
       },
       prism: {
         theme: lightCodeTheme,
