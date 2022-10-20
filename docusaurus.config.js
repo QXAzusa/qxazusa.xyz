@@ -143,6 +143,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      metadata: [{name: 'referrer', content: 'always'}],
     }),
   scripts: [
       {
