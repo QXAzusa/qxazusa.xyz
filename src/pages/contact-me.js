@@ -13,8 +13,6 @@ export default function Hello() {
                 <h1 class="hero__subtitle">哔哩哔哩</h1>
                 <p><a href='https://space.bilibili.com/148833361'>主页</a></p>
                 <p><a href='https://message.bilibili.com/#whisper/mid148833361'>私信（需要登陆）</a></p>
-                <h1 class="hero__subtitle">Twitter</h1>
-                <p><a href='https://twitter.com/QXAzusa'>主页</a></p>
                 <h1 class="hero__subtitle">棉花糖</h1>
                 <p><a href='https://marshmallow-qa.com/qxazusa'>marshmallow-qa.com/qxazusa</a></p>
                 <h1 class="hero__subtitle">电子邮箱</h1>
