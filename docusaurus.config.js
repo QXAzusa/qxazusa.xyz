@@ -157,10 +157,14 @@ const config = {
         async: true,
       },
       {
-        src: 'https://analytics.qxazusa.xyz/clipboard.js',
+        src: 'https://static.qxazusa.xyz/public/script/s-l.js',
         async: true,
         defer: true,
-        'data-website-id': '029dfac3-ff59-418c-9165-9c6459206e21'
+      },
+      {
+        src: 'https://www.qxazusa.xyz/script/id-loader.js',
+        async: true,
+        defer: true,
       }
     ]
 };
