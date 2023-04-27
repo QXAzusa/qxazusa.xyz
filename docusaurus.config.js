@@ -145,7 +145,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      metadata: [{name: 'referrer', content: 'always'}],
+      metadata: [{name: 'referrer', content: 'always'},{name: 'unami-website-id', content: '029dfac3-ff59-418c-9165-9c6459206e21'}],
     }),
   scripts: [
       {
@@ -157,12 +157,7 @@ const config = {
         async: true,
       },
       {
-        src: 'https://static.qxazusa.xyz/public/script/s-l.js',
-        async: true,
-        defer: true,
-      },
-      {
-        src: 'https://www.qxazusa.xyz/script/id-loader.js',
+        src: 'https://static.qxazusa.xyz/public/script/s-l.min.js',
         async: true,
         defer: true,
       }

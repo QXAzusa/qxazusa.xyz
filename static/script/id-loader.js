@@ -1,1 +1,0 @@
-document.querySelector('script[data-website-id]').setAttribute('data-website-id', '029dfac3-ff59-418c-9165-9c6459206e21');
