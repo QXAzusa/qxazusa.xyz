@@ -57,6 +57,10 @@ const config = {
           ignorePatterns: ['/blog/tags/**','/album/***','/error-page/***'],
           filename: 'sitemap.xml',
         },
+        gtag: {
+          trackingID: 'G-MD28TLTYRQ',
+          anonymizeIP: false,
+        },
       }),
     ],
   ],
@@ -155,11 +159,6 @@ const config = {
       {
         src: 'https://static.qxazusa.xyz/docusaurus/script/clipboard.min.js',
         async: true,
-      },
-      {
-        src: 'https://static.qxazusa.xyz/public/script/s-l.min.js',
-        async: true,
-        defer: true,
       }
     ]
 };
