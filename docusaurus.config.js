@@ -143,7 +143,7 @@ const config = {
         <br><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32081202000264" target="_blank" rel="noopener" style="text-decoration: none;color:var(--ifm-footer-link-color)!important">苏公网安备 32081202000264号</a><br>
         Copyright © ${new Date().getFullYear()} QXAzusa
         <br>Powered by Docusaurus
-        </dlv>
+        </div>
         '
       },
       prism: {
