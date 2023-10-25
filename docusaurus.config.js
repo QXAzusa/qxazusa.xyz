@@ -144,7 +144,7 @@ const config = {
         Copyright © ${new Date().getFullYear()} QXAzusa
         <br>Powered by Docusaurus
         </div>
-        '
+        `
       },
       prism: {
         theme: lightCodeTheme,
