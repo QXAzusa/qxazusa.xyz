@@ -150,7 +150,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      metadata: [{name: 'referrer', content: 'always'},{name: 'unami-website-id', content: '029dfac3-ff59-418c-9165-9c6459206e21'}],
+      metadata: [{name: 'referrer', content: 'always'}],
     }),
   scripts: [
       {
