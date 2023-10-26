@@ -126,7 +126,7 @@ const config = {
             items: [
               {
                 label: '联系方式',
-                to: '/contact-me',
+                to: '/contact',
               },
               {
                 label: '旧版(Powered by Hexo)',
