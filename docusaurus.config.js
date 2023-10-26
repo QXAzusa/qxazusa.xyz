@@ -80,7 +80,7 @@ const config = {
             type: 'doc',
             docId: 'wiki',
             position: 'left',
-            label: 'Wiki',
+            label: '百科',
           },
           {to: '/album', label: '相册'}
         ],
@@ -96,12 +96,12 @@ const config = {
                 to:'/blog'
               },
               {
-                label:'Wiki',
+                label:'百科',
                 to:'/docs/wiki'
               },
               {
-                label: '关于我',
-                to: '/about',
+                label: '相册',
+                to: '/album',
               },
             ],
           },
@@ -132,6 +132,10 @@ const config = {
               {
                 label: '旧版(Powered by Hexo)',
                 href: 'https://hexo.qxazusa.xyz/',
+              },
+              {
+                label: '关于我',
+                to: '/about',
               }
             ],
           },
