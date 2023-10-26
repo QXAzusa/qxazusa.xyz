@@ -59,7 +59,9 @@ function MyHero() {
         </div>
       </div>
       <div className={styles.rightContainer}>
-        <img src='//static.qxazusa.xyz/docusaurus/image/Hero.png?x-image-process=style/webp' alt='HeroImg' />
+        <a href="../about-tsukina">
+          <img src="//static.qxazusa.xyz/docusaurus/image/Hero.png?x-image-process=style/webp" alt="HeroImg" />
+        </a>
       </div>
     </div>
   )
