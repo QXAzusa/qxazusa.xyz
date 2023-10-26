@@ -100,7 +100,7 @@ const config = {
               },
               {
                 label: '关于我',
-                to: '/about-me',
+                to: '/about',
               },
             ],
           },
