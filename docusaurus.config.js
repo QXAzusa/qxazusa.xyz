@@ -108,8 +108,8 @@ const config = {
             title: '社交账号',
             items: [
               {
-                label: 'Github',
-                href: 'https://github.com/QXAzusa',
+                label: 'Gitlab',
+                href: 'https://gitlab.com/QXAzusa',
               },
               {
                 label: 'Steam',
