@@ -82,6 +82,7 @@ const config = {
             position: 'left',
             label: 'Wiki',
           },
+          {to: '/album', label: '相册'}
         ],
       },
       footer: {
