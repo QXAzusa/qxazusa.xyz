@@ -27,12 +27,7 @@ const config = {
     locales: ['zh-Hans'],
   },
   plugins: [
-    [
-      'docusaurus-plugin-sentry',
-      {
-        DSN: '5995d4b0801d4691b1dd76b023ac8e15',
-      },
-    ],
+    [],
   ],
   presets: [
     [
