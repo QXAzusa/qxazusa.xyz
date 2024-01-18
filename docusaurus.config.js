@@ -151,7 +151,7 @@ const config = {
     }),
   scripts: [
       {
-        src: 'https://cdn.staticfile.org/jquery/3.6.1/jquery.min.js',
+        src: 'https://static.qxazusa.xyz/public/script/jquery-3.6.0.min.js',
         async: false,
       },
       {
