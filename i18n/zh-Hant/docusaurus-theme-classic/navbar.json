@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "浅笑Azusa的小世界",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Site Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.百科": {
+    "message": "百科",
+    "description": "Navbar item with label 百科"
+  },
+  "item.label.相册": {
+    "message": "相册",
+    "description": "Navbar item with label 相册"
+  }
+}

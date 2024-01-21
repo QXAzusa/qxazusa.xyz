@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    locales: ['zh-Hans','ja','zh-Hant'],
   },
   presets: [
     [
@@ -74,7 +74,11 @@ const config = {
             position: 'left',
             label: '百科',
           },
-          {to: '/album', label: '相册'}
+          {to: '/album', label: '相册'},
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          }
         ],
       },
       footer: {
