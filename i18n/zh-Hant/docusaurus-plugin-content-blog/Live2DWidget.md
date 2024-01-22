@@ -84,7 +84,7 @@ live2d:
 註意：在每次修改過live2d的內容後務必執行一次hexo clean命令再生成上載，不然不能生效。
 
 # 可換裝、互動
-![示例](./simple.png)
+![示例](https://static.qxazusa.xyz/docusaurus/image/Live2DWidget-simple.png)
 ### 倉庫部署
 
 將 [stevenjoezhang/live2d-widget](https://github.com/stevenjoezhang/live2d-widget) 和 [fghrsh/live2d_api](https://github.com/fghrsh/live2d_api) fork到自己的倉庫，在[Vercel](https://vercel.com/)將自己的項目部署在上麵，等待部署結束後在Production Deployment下得到各項目的DOMAIN。<b>所有的DOMAIN開頭都要帶https://</b>

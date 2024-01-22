@@ -9,7 +9,7 @@ tags: ['Hexo']
 ---
 在Hexo架構中用於顯示個人在bilibili的追番內容，參考Github項目[hexo-bilibili-bangumi](https://github.com/HCLonely/hexo-bilibili-bangumi)
 <!--truncate-->
-![示例](./simple.png)
+![示例](https://static.qxazusa.xyz/docusaurus/image/Bilibili追番页面-simple.png)
 ### 安裝依賴
 
 ```bash
