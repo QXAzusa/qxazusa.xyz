@@ -275,5 +275,8 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "Album": {
+    "message": "相册"
   }
 }

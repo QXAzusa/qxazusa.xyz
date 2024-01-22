@@ -20,7 +20,7 @@
     "description": "The label of footer link with label=百科 linking to /docs/wiki"
   },
   "link.item.label.相册": {
-    "message": "相冊",
+    "message": "相簿",
     "description": "The label of footer link with label=相冊 linking to /album"
   },
   "link.item.label.Gitlab": {
@@ -36,7 +36,7 @@
     "description": "The label of footer link with label=Blibili linking to https://space.bilibili.com/148833361"
   },
   "link.item.label.联系方式": {
-    "message": "聯係方式",
+    "message": "聯絡方式",
     "description": "The label of footer link with label=聯係方式 linking to /contact"
   },
   "link.item.label.旧版(Powered by Hexo)": {

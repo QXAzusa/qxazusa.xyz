@@ -16,7 +16,7 @@
     "description": "Navbar item with label 百科"
   },
   "item.label.相册": {
-    "message": "相冊",
+    "message": "相簿",
     "description": "Navbar item with label 相冊"
   }
 }
