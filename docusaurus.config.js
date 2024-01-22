@@ -33,6 +33,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          editLocalizedFiles: true
         },
         blog: {
           showReadingTime: true,

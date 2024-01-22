@@ -14,5 +14,13 @@
   "sidebar.tutorialSidebar.category.Tutorial - Extras": {
     "message": "Tutorial - Extras",
     "description": "The label for category Tutorial - Extras in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.虚拟主播字幕组运行结构": {
+    "message": "虚拟主播字幕组运行结构",
+    "description": "The label for category 虚拟主播字幕组运行结构 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.虚拟主播字幕组运行结构.link.generated-index.description": {
+    "message": "以一个直播剪辑的制作流程介绍虚拟主播字幕组常见的职务类别",
+    "description": "The generated-index page description for category 虚拟主播字幕组运行结构 in sidebar tutorialSidebar"
   }
 }

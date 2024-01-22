@@ -1,14 +1,10 @@
 {
-  "version.label": {
-    "message": "Next",
-    "description": "The label for version current"
-  },
   "sidebar.tutorialSidebar.category.虚拟主播字幕组运行结构": {
-    "message": "虚拟主播字幕组运行结构",
+    "message": "虛擬主播字幕組運行結構",
     "description": "The label for category 虚拟主播字幕组运行结构 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.虚拟主播字幕组运行结构.link.generated-index.description": {
-    "message": "以一个直播剪辑的制作流程介绍虚拟主播字幕组常见的职务类别",
+    "message": "以一個直播剪輯的製作流程介紹虛擬主播字幕組常見的職務類別",
     "description": "The generated-index page description for category 虚拟主播字幕组运行结构 in sidebar tutorialSidebar"
   }
 }

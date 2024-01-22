@@ -7,6 +7,7 @@ import styles from './index.module.css'
 import HomepageFeatures from '../components/HomepageFeatures'
 import Head from '@docusaurus/Head'
 import HeroImg from '../../static/img/Hero.png'
+import Translate, {translate} from '@docusaurus/Translate';
 
 const svgList = [
   {
@@ -38,9 +39,9 @@ function MyHero() {
           Always <br /> For Happiness.
         </h1>
         <p className={styles.leftContainer_p}>
-          一个热爱探索新事物的家伙 💨
+          <Translate>一个热爱探索新事物的家伙 💨</Translate>  
           <br />
-          在这里记录生活与知识，希望对你也有帮助。
+          <Translate>在这里记录生活与知识，希望对你也有帮助。</Translate>
         </p>
         <div className={styles.buttonContainer}>
           {/* <button className={styles.button}>

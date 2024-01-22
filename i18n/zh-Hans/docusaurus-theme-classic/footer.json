@@ -34,5 +34,57 @@
   "link.item.label.GitHub": {
     "message": "GitHub",
     "description": "The label of footer link with label=GitHub linking to https://github.com/facebook/docusaurus"
+  },
+  "link.title.网站地图": {
+    "message": "网站地图",
+    "description": "The title of the footer links column with title=网站地图 in the footer"
+  },
+  "link.title.社交账号": {
+    "message": "社交账号",
+    "description": "The title of the footer links column with title=社交账号 in the footer"
+  },
+  "link.title.更多": {
+    "message": "更多",
+    "description": "The title of the footer links column with title=更多 in the footer"
+  },
+  "link.item.label.文章": {
+    "message": "文章",
+    "description": "The label of footer link with label=文章 linking to /blog"
+  },
+  "link.item.label.百科": {
+    "message": "百科",
+    "description": "The label of footer link with label=百科 linking to /docs/wiki"
+  },
+  "link.item.label.相册": {
+    "message": "相册",
+    "description": "The label of footer link with label=相册 linking to /album"
+  },
+  "link.item.label.Gitlab": {
+    "message": "Gitlab",
+    "description": "The label of footer link with label=Gitlab linking to https://gitlab.com/QXAzusa"
+  },
+  "link.item.label.Steam": {
+    "message": "Steam",
+    "description": "The label of footer link with label=Steam linking to https://steamcommunity.com/profiles/76561198416930740"
+  },
+  "link.item.label.Blibili": {
+    "message": "Blibili",
+    "description": "The label of footer link with label=Blibili linking to https://space.bilibili.com/148833361"
+  },
+  "link.item.label.联系方式": {
+    "message": "联系方式",
+    "description": "The label of footer link with label=联系方式 linking to /contact"
+  },
+  "link.item.label.旧版(Powered by Hexo)": {
+    "message": "旧版(Powered by Hexo)",
+    "description": "The label of footer link with label=旧版(Powered by Hexo) linking to https://hexo.qxazusa.xyz/"
+  },
+  "link.item.label.关于我": {
+    "message": "关于我",
+    "description": "The label of footer link with label=关于我 linking to /about"
+  },
+  "copyright": {
+    "message": "\n        <div id=\"footer_pc\">Copyright © 2024 QXAzusa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powered by Docusaurus&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><a href=\"https://beian.miit.gov.cn/\" target=\"_blank\" rel=\"noopener\" style=\"text-decoration: none;color:var(--ifm-footer-link-color)!important\">苏ICP备2021044611号-1</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img id=\"gongan_logo\" alt=\"gongan_logo\" src=\"//static.qxazusa.xyz/public/image/gongan.png\" align=\"center\">&nbsp;<a href=\"https://beian.mps.gov.cn/#/query/webSearch?code=32081202000264\" target=\"_blank\" rel=\"noopener\" style=\"text-decoration: none;color:var(--ifm-footer-link-color)!important\">苏公网安备 32081202000264号</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"https://icp.gov.moe/?keyword=20220417\" target=\"_blank\" style=\"text-decoration: none;color:var(--ifm-footer-link-color)!important\">萌ICP备20220417号</a><br></div>\n        <div id=\"footer_mobile\">\n        <br><a href=\"https://icp.gov.moe/?keyword=20220417\" target=\"_blank\" style=\"text-decoration: none;color:var(--ifm-footer-link-color)!important\">萌ICP备20220417号</a>\n        <br><a href=\"https://beian.miit.gov.cn/\" target=\"_blank\" rel=\"noopener\" style=\"text-decoration: none;color:var(--ifm-footer-link-color)!important\">苏ICP备2021044611号-1</a>\n        <br><a href=\"https://beian.mps.gov.cn/#/query/webSearch?code=32081202000264\" target=\"_blank\" rel=\"noopener\" style=\"text-decoration: none;color:var(--ifm-footer-link-color)!important\">苏公网安备 32081202000264号</a><br>\n        Copyright © 2024 QXAzusa\n        <br>Powered by Docusaurus\n        </div>\n        ",
+    "description": "The footer copyright"
   }
 }

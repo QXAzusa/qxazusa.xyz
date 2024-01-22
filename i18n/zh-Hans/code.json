@@ -5,7 +5,7 @@
   },
   "theme.ErrorPageContent.tryAgain": {
     "message": "重试",
-    "description": "The label of the button to try again when the page crashed"
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.NotFound.title": {
     "message": "找不到页面",
@@ -249,5 +249,31 @@
   "theme.docs.sidebar.expandButtonAriaLabel": {
     "message": "展开侧边栏",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "一个热爱探索新事物的家伙 💨": {
+    "message": "一个热爱探索新事物的家伙 💨"
+  },
+  "在这里记录生活与知识，希望对你也有帮助。": {
+    "message": "在这里记录生活与知识，希望对你也有帮助。"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "主导航",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "文档侧边栏",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "关闭导航栏",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "切换导航栏",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "标签",
+    "description": "The title of the tag list page"
   }
 }
