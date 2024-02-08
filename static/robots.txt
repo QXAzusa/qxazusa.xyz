@@ -1,0 +1,32 @@
+User-agent: *
+Allow:/
+Disallow:/article/tags
+Disallow:/archive-page
+Disallow:/about
+Disallow:/about-tsukina
+Disallow:/contact
+
+User-agent: Sosospider
+Disallow: /
+User-agent: sogou spider
+Disallow: /
+User-agent: YodaoBot
+Disallow: /
+User-agent: Baiduspider
+Disallow: /
+User-agent: 360Spider
+Disallow: /
+User-agent: 360Spider-Image
+Disallow: /
+User-agent: 360Spider-Video
+Disallow: /
+User-agent:Sogou web spider
+Disallow:/
+User-agent:Sogou wap spider
+Disallow:/
+User-agent:YisouSpider
+Disallow:/
+User-agent:BaiduSpider-ads
+Disallow:/
+
+Sitemap: https://www.qxazusa.xyz/sitemap.xml
