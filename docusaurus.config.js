@@ -75,7 +75,7 @@ const config = {
             position: 'left',
             label: '百科',
           },
-          {to: '/album', label: '相册'},
+          /**{to: '/album', label: '相册'},**/
           {
             type: 'localeDropdown',
             position: 'right',
@@ -96,10 +96,10 @@ const config = {
                 label:'百科',
                 to:'/docs/wiki'
               },
-              {
+              /**{
                 label: '相册',
                 to: '/album',
-              },
+              },**/
             ],
           },
           {
