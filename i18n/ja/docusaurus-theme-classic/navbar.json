@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "浅笑Azusa的小世界",
+    "message": "浅笑Azusaの小さな世界",
     "description": "The title in the navbar"
   },
   "logo.alt": {
     "message": "Site Logo",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Blog": {
-    "message": "Blog",
+  "item.label.文章": {
+    "message": "記事",
     "description": "Navbar item with label Blog"
   },
   "item.label.百科": {

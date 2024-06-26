@@ -68,7 +68,7 @@ const config = {
           src: '//static.qxazusa.xyz/public/image/favicon.png?x-image-process=style/favicon',
         },
         items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '文章', position: 'left'},
           {
             type: 'doc',
             docId: 'wiki',
